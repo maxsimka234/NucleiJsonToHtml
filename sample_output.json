@@ -1,0 +1,28 @@
+{
+    "template": "cves/2021/CVE-2021-44228.yaml",
+    "template-id": "CVE-2021-44228",
+    "info": {
+        "name": "Apache Log4j2 Remote Code Execution",
+        "severity": "critical",
+        "description": "Apache Log4j2 <=2.14.1 JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints."
+    },
+    "type": "http",
+    "host": "vulnerable.example.com",
+    "matched-at": "https://vulnerable.example.com/login",
+    "timestamp": "2026-02-16T14:05:00.000000+02:00",
+    "matcher-status": true
+}
+{
+    "template": "misconfiguration/cors-misconfig.yaml",
+    "template-id": "cors-misconfig",
+    "info": {
+        "name": "CORS Misconfiguration",
+        "severity": "medium",
+        "description": "The CORS policy on this host is too permissive."
+    },
+    "type": "http",
+    "host": "api.example.com",
+    "matched-at": "https://api.example.com/v1/data",
+    "timestamp": "2026-02-16T14:10:00.000000+02:00",
+    "matcher-status": true
+}
