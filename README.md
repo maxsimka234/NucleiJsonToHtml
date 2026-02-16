@@ -37,9 +37,6 @@ python3 nuclei_to_html.py -i <input_file> -o <output_file.html>
 
 3. Open `report.html` in your browser.
 
-## Screenshots
-
-*(You can add screenshots here)*
 
 ## License
 
